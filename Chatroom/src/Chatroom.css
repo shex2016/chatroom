@@ -1,0 +1,33 @@
+.window{
+  zoom: 1;
+  height: 100vh;
+}
+.windowCol {
+  float: left;
+  background-color: rgb(255, 255, 255);
+}
+.contactList{
+  margin: 0.1%;
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid grey;
+}
+.msgbox {
+  margin: 0.1%;
+  width: 79%;
+  height: 100%;
+}
+
+.msgEntries {
+  margin: 0.1%;
+  height: 89%;
+}
+
+.msgInput {
+  margin: 0.1%;
+  height: 10%;
+}
+
+.sendBtn {
+  float: right;
+}

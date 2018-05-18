@@ -1,0 +1,30 @@
+.messenger-title{
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .10);
+}
+.unread{
+  font-weight: bold;
+}
+.contact-item{
+  height: 70px;
+}
+.contact-left{
+  float: left;
+  width: 50px;
+  padding: 1px;  
+}
+.contact-right{
+  float: left;
+  width: calc(100% - 90px);
+  padding: 20px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, .10);
+}
+.contact-name{
+  font-weight: 400;
+  line-height: 1.4em;
+  color: black; 
+}
+.onlineDot{
+  
+}
