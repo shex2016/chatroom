@@ -1,7 +1,8 @@
 #How to use?
 $ git clone git@github.com:shex2016/chatroom.git
 $ cd chatroom
-$ npm run install
+$ npm run server-install
+$ npm run client-install
 $ npm run dev
 
 #Feature
