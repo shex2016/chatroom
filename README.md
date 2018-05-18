@@ -1,8 +1,8 @@
 #How to use?
 $ git clone git@github.com:shex2016/chatroom.git
 $ cd chatroom
-$ npm install
-$ npm start
+$ npm run install
+$ npm run dev
 
 #Feature
 1. Online users list will appear with their profile pictures surrounded by a green circle.

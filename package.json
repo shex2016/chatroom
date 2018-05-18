@@ -4,7 +4,8 @@
   "scripts": {
     "client": "cd Chatroom && npm start",
     "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "install": "concurrently --kill-others-on-fail \"npm install\" \"cd Chatroom && npm install\""
   },
   "dependencies": {
     "@material-ui/core": "^1.0.0",
