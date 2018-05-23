@@ -224,7 +224,7 @@ export default class Chatroom extends React.Component{
   render(){
     var l = this.getThreadsList();
     if(this.getLastIsReadByUserName(this.state.notifiedUser)){
-      document.title = "Chatroom";
+      document.title = this.props.username;
     }
     if(l !== null){
       if(l.length !== 0){
